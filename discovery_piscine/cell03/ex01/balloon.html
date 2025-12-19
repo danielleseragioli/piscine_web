@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Balloon</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    #balloon {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="balloon"></div>
+
+  <script>
+    const balloon = document.getElementById("balloon");
+    let size = 200; //guarda o tamanho atual do balão 
+    const colors = ["red", "green", "blue"];// guarda qual cor esta ativa (0,1,2)
+    let colorIndex = 0;
+
+    balloon.addEventListener("click", () => {
+      size += 10; //vai aumentando o tamanho
+
+      if (size > 420) {
+        size = 200; // quando chegar no limite ele volta para o 200
+        colorIndex = 0;
+      } else {
+        colorIndex = (colorIndex + 1) % colors.length;
+        // (2+ 1) % 3 = 0 impede passar o limite do array
+      }
+
+      //aplica as mudancas ao balao
+      balloon.style.width = size + "px";
+      balloon.style.height = size + "px";
+      balloon.style.backgroundColor = colors[colorIndex];
+    });
+
+    balloon.addEventListener("mouseleave", () => {
+      size -= 5; //diminui o tamanho
+
+      if (size < 200) {
+        size = 200; // nao deixa ficar menor que 200
+      } else {
+        colorIndex = (colorIndex - 1 + colors.length) % colors.length;
+        //tem que voltar uma cor atras, e o + color lenght evita numeros negativos
+      }
+
+      //aplica as mudancas ao balao
+      balloon.style.width = size + "px";
+      balloon.style.height = size + "px";
+      balloon.style.backgroundColor = colors[colorIndex];
+    });
+  </script>
+
+</body>
+</html>

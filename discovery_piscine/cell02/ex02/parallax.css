@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image1{
+    background-image: url("night.png");
+
+    min-height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2{
+    background-image: url("morning.png");
+
+    min-height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block{
+    background-color: rgb(26, 0, 70);
+    text-align: center;
+    padding: 40px 0px;
+    color: rgb(206, 174, 248);
+}
+
+.text{
+    color: rgb(123, 196, 224);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_night{
+    color: rgb(40, 120, 224);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

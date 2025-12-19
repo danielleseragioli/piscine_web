@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4e4e4e;
+    background-color: #f5f5f5;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+/*index.html*/
+    .welcome-page {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7d484dc9-68a9-4ee6-a767-aea59035c12d');
+        
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .cv-card {
+        background: rgba(255, 255, 255, 0.8) !important; 
+        backdrop-filter: blur(10px); 
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .cv-card:hover {
+        transform: translateY(-10px);
+    }
+
+/* Navbar Estilo */
+.navbar {
+    transition: all 0.5s;
+    padding: 15px 0;
+    background-color: #EA5627 !important;
+}
+
+/* Hero Section (Início) */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1618388810903-840bb0d15ea5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero img {
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    width: 150px;
+}
+
+/* Seções */
+section { padding: 80px 0; }
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+    padding: 100px 0;        /* Espaço para a navbar fixa não cobrir o conteúdo */
+    border-bottom: 1px solid #eee; /* Opcional: apenas para delimitar visualmente */
+}
+section, header {
+  scroll-snap-align: start;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-title::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #862204;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Cards e Skills */
+.skill-card {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+
+.progress {
+    height: 12px;
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #EA5627;
+    border-color: #EA5627;
+    padding: 10px 24px;
+    border-radius: 50px;
+}
+

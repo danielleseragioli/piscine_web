@@ -1,0 +1,22 @@
+body{
+    background-color: powderblue;
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    margin: 10px;
+}
+
+select{
+    border-radius: 30px;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(202, 163, 253);
+    cursor: pointer;
+}
+
+option:checked {
+    background-color: rgb(120, 80, 200);
+    color: white;
+}
+
