@@ -1,6 +1,6 @@
 
 # 🌊 Discovery Piscine Web  <br>
-<img align="right" src="https://github.com/danielleseragioli/42_duck_badges/blob/main/badges/piscine_web_pin.png" width="450" style="margin-left: 500px; margin-bottom: 10px;">
+<img align="right" src="https://spotty-grenadilla-d26.notion.site/image/attachment%3A07942260-9a8f-4366-9bac-0c29d33bbd5c%3Apiscine_web_pin.png?table=block&id=2d0113de-b78e-80c7-8cc4-e26a772b8ec8&spaceId=d1b02b65-6f05-41fb-9868-69f5ce300038&width=1310&userId=&cache=v2" width="450" style="margin-left: 500px; margin-bottom: 10px;">
 
 ### 42 Porto × Santander Open Academy
 🚀 Web Development Discovery – 42 Porto <br>
