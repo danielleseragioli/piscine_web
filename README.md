@@ -21,7 +21,7 @@ An intensive bootcamp-style experience focused on hands-on development and colla
     <td><img src="https://spotty-grenadilla-d26.notion.site/image/attachment%3Ae2aa1a33-0568-4762-a2a9-4091bfc234fc%3A366790a3-e85e-4295-965b-1b848ca41733.jpg?table=block&id=2d4113de-b78e-80de-a956-f541b41983a5&spaceId=d1b02b65-6f05-41fb-9868-69f5ce300038&width=660&userId=&cache=v2" width="400"></td>
   </tr>
 </table>
-
+@eduardaseragioli
 
 ## 📚 Modules & Projects
 
